@@ -33,19 +33,19 @@ timezone: Asia/Shanghai
 ## => Author and Social
 ##############################
 author:
-  type      : # "person" (default), "organization"
+  type      : person # "person" (default), "organization"
   name      : Alain Hsu
-  url       :
-  avatar    : http://img.mp.itc.cn/upload/20170402/732019ad75184b058a3895053e21140a_th.jpeg # path or url of avatar image
+  url       : https://alainhsu.github.io
+  avatar    : https://i.pinimg.com/236x/4e/9b/5d/4e9b5d3b6e4c3fa736b53b21a5a8a8b0.jpg # path or url of avatar image
   bio       : Stay hungry, stay foolish🍎
   email     : alain.hsu@outlook.com
-  facebook  : # https://www.facebook.com/alain.hsu.cn
+  facebook  : # "user_name" the last part of your profile url, e.g. https://www.facebook.com/user_name
   twitter   : # "user_name" the last part of your profile url, e.g. https://twitter.com/user_name
   googleplus: # "user_id"   the last part of your profile url, e.g. https://plus.google.com/u/0/user_id
-  weibo     : # 2260151247
+  weibo     : # 2260151247 # "user_id"   the last part of your profile url, e.g. https://www.weibo.com/user_id/profile?...
   douban    : # "user_name" the last part of your profile url, e.g. https://www.douban.com/people/user_name/
-  linkedin  : https://www.linkedin.com/in/alain-hsu-cn
-  github    : AlainHsu
+  linkedin  : alain-hsu-cn # "user_name" the last part of your profile url, e.g. https://www.linkedin.com/in/user_name
+  github    : AlainHsu # "user_name" the last part of your profile url, e.g. https://github.com/user_name
   npm       : # "user_name" the last part of your profile url, e.g. https://www.npmjs.com/~user_name
   telegram  : # "user_name" the last part of your profile url, e.g. https://t.me/user_name
 
