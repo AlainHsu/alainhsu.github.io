@@ -196,6 +196,7 @@ exclude:
   - /screenshots
   - /test
   - /vendor
+  - /tmp_posts  # folder for tmp posts stored locally
 
 defaults:
   - scope:
@@ -220,3 +221,4 @@ plugins:
   - jekyll-paginate
   - jekyll-sitemap
   - jemoji
+  - jekyll-seo-tag
