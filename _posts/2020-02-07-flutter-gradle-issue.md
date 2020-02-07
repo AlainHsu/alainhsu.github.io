@@ -25,7 +25,7 @@ apply from: "$flutterRoot/packages/flutter_tools/gradle/flutter.gradle"
 在app主模块，当Gradle运行到 `apply from` 时,进入flutter.gradle执行代码流程.
 
 <div align="center">
-<img src="https://upload-images.jianshu.io/upload_images/5964029-530da4ec731d6513.png?imageMogr2/auto-orient/strip|imageView2/2/w/1200/format/webp" alt="topo" width="500px" class="shadow rounded">
+<img src="http://q4cgib48a.bkt.clouddn.com/apply-from-flutter-gradle.webp" alt="topo" width="500px" class="shadow rounded">
 </div>
 
 ## 科学上网条件下的解决方案
