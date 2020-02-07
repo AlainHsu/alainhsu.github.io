@@ -46,7 +46,7 @@ apply from: "$flutterRoot/packages/flutter_tools/gradle/flutter.gradle"
 
 ## 使用国内源的解决方案
 
-需要修改 gradle 仓库地址,改用阿里云代理[^aliyun]. 需要修改两个地方, Flutter SDK 目录下的`flutter.gradle` 和自己 Flutter 工程android 目录下的 `build.gradle`, 前者只需要修改一次, 后者在每次新建工程的时候都需要修改. 关于这两个文件的描述可以看[前言](#section).
+需要修改 gradle 仓库地址,改用阿里云代理. 需要修改两个地方, Flutter SDK 目录下的`flutter.gradle` 和自己 Flutter 工程android 目录下的 `build.gradle`, 前者只需要修改一次, 后者在每次新建工程的时候都需要修改. 关于这两个文件的描述可以看[前言](#section).
 
 * 修改 `flutter.gradle`
 
@@ -68,7 +68,7 @@ apply from: "$flutterRoot/packages/flutter_tools/gradle/flutter.gradle"
 Received status code 500 from server: Internal Privoxy Error
 ```
 * **原因**: 
-  在科学上网时添加了代理端口到 `gradle.properties` 中,停止科学上网后代理并不会自动删除,此时仍指向代理,从而导致访问失败[^500].
+  在科学上网时添加了代理端口到 `gradle.properties` 中,停止科学上网后代理并不会自动删除,此时仍指向代理,从而导致访问失败.
 
 * **解决方案**: 
   手动删除 `gradle.properties` 中添加的代理.
@@ -76,5 +76,3 @@ Received status code 500 from server: Internal Privoxy Error
 </div>
 
 [^gradle]: [如何通俗地理解 Gradle？ - ghui的回答 - 知乎](https://www.zhihu.com/question/30432152/answer/48239946)
-[^aliyun]: [运行flutter应用时，长时间卡在Running Gradle task 'assembleDebug'...](https://segmentfault.com/a/1190000021451897?utm_source=tag-newest)
-[^500]: [Received status code 500 from server: Internal Privoxy Error]()
