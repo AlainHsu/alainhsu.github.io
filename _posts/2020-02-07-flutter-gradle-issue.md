@@ -25,7 +25,7 @@ apply from: "$flutterRoot/packages/flutter_tools/gradle/flutter.gradle"
 在app主模块，当Gradle运行到 `apply from` 时,进入flutter.gradle执行代码流程.
 
 <div align="center">
-<img src="http://q4cgib48a.bkt.clouddn.com/apply-from-flutter-gradle.webp" alt="topo" width="500px" class="shadow rounded">
+<img src="https://alain-hsu-blog.oss-cn-shenzhen.aliyuncs.com/apply-from-flutter-gradle.webp" alt="topo" width="500px" class="shadow rounded">
 </div>
 
 ## 科学上网条件下的解决方案
@@ -35,13 +35,13 @@ apply from: "$flutterRoot/packages/flutter_tools/gradle/flutter.gradle"
 代理端口在 Mac 的 System Preferences > Network > Advanced... > Proxies 可以看到.
 
 <div align="center">
-<img src="http://q4cgib48a.bkt.clouddn.com/socks-proxy.png" alt="topo" width="500px" class="shadow rounded">
+<img src="https://alain-hsu-blog.oss-cn-shenzhen.aliyuncs.com/socks-proxy.png" alt="topo" width="500px" class="shadow rounded">
 </div>
 
 `gradle.properties` 在 Mac 上通常位于用户根目录下的 `.gradle` 隐藏文件夹中. 如下图所示添加代理端口.
 
 <div align="center">
-<img src="http://q4cgib48a.bkt.clouddn.com/gradle-properties.png" alt="topo" width="500px" class="shadow rounded">
+<img src="https://alain-hsu-blog.oss-cn-shenzhen.aliyuncs.com/gradle-properties.png" alt="topo" width="500px" class="shadow rounded">
 </div>
 
 ## 使用国内源的解决方案
@@ -51,13 +51,13 @@ apply from: "$flutterRoot/packages/flutter_tools/gradle/flutter.gradle"
 * 修改 `flutter.gradle`
 
 <div align="center">
-<img src="http://q4cgib48a.bkt.clouddn.com/flutter-gradle.png" alt="topo" width="500px" class="shadow rounded">
+<img src="https://alain-hsu-blog.oss-cn-shenzhen.aliyuncs.com/flutter-gradle.png" alt="topo" width="500px" class="shadow rounded">
 </div>
 
 * 修改 `build.gradle`
 
 <div align="center">
-<img src="http://q4cgib48a.bkt.clouddn.com/build-gradle.png" alt="topo" width="500px" class="shadow rounded">
+<img src="https://alain-hsu-blog.oss-cn-shenzhen.aliyuncs.com/build-gradle.png" alt="topo" width="500px" class="shadow rounded">
 </div>
 
 ### 遇到新问题
