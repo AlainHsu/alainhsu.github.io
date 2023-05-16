@@ -6,28 +6,40 @@ full_width: true
 
 mathjax: false
 excerpt: >
-    Alain's HomePage
+  Alain's HomePage
 
 permalink: /index.html
 ---
+
 {% include analytics.html %}
 <body>
-	<div class="landing-home" itemscope itemtype="https://schema.org/Person">		
-		<div class="main">
-			<div class="content">
-				<div class="my-photo">
-					<img itemprop="image" alt="logo" src="https://alain-hsu-blog.oss-cn-shenzhen.aliyuncs.com/head-image.png" />
-				</div>
-				<h1 itemprop="name" class="title-text"> {{site.author.name}} </h1>
+  <div class="landing-home" itemscope itemtype="https://schema.org/Person">
+    <div class="main">
+      <div class="content">
+        <div class="my-photo">
+          <img
+            itemprop="image"
+            alt="logo"
+            src="https://alain-hsu-blog.oss-cn-shenzhen.aliyuncs.com/surfer-surfing-a-wave.png"
+          />
+        </div>
+        <h1 itemprop="name" class="title-text">{{site.author.name}}</h1>
 
-				{% include author-links.html author=site.author %}
-				<br>
-				<a class="button--rounded button--theme-light button-lg" title="Visit my blog" itemprop="url" href="/blog" target="_self">Visit my blog</a>
-			</div>
-		</div>
-	</div>
+        {% include author-links.html author=site.author %}
+        <br />
+        <a
+          class="button--rounded button--theme-light button-lg"
+          title="Visit my blog"
+          itemprop="url"
+          href="/blog"
+          target="_self"
+          >Visit my blog</a
+        >
+      </div>
+    </div>
+  </div>
 </body>
 
 <script>
-	{%- include scripts/common.js -%}
+  {%- include scripts/common.js -%}
 </script>
